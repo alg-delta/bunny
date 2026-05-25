@@ -1,0 +1,93 @@
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex; /*ставить в рядок*/
+}
+
+.header {
+	display: flex;
+	align-items: center; /*центрує по висоті*/
+}
+
+.menu-btn {
+	display: block;
+	font-size: 24px;
+	color: Thistle;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-decoration: none;
+	font-family:Comic Sans MS;
+}
+
+.menu-btn:hover {
+	color: Lime;
+	transform: scale(1.1);
+}
+
+.logo {
+	margin-right: 100px;
+}
+
+.active {
+	color: Tan;
+}
+
+/* Головна сторінка */
+.main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; /* центрування по горизонталі для блоку */	
+  padding-top: 100px;	
+}	
+
+.picture {
+  float: right; /* картинка справа */
+border: 20px solid Wheat;
+border-radius: 5px;
+border-radius: 50%;
+}
+
+.title {	
+  color: white;	
+  font-family: Verdana;	
+  font-size: 40px;
+}	
+.subtitle{
+ color: Pink;
+  font-size: 30px;
+  font-family: Verdana;
+  font-style: italic;
+  font-weight: bold; 
+}
+.btn {
+ width: 200px;
+ height: 200px;
+font-family: Verdana;
+font-size: 20px;
+border-radius: 7px;
+border: 10px double red;
+}
+.tovars {
+	text-align: center;
+}
+.list{
+      list-style: none;
+}
+.robot {
+    translate: all 0.5s;
+}
+.robot:hover {
+     transform: rotate(2turn);
+}
+
+.hellooo {
+	color:CadetBlue;
+font-size: 40px;
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+text-decoration: underline ;
+
+}
